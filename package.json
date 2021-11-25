@@ -1,0 +1,22 @@
+{
+  "name": "gql-mesh-batch-execute",
+  "description": "",
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js localhost 4000",
+    "start-mesh": "DEBUG=1 yarn mesh dev --port 4001"
+  },
+  "keywords": [],
+  "dependencies": {
+    "@graphql-mesh/cli": "latest",
+    "@graphql-mesh/graphql": "latest",
+    "apollo-server-express": "latest",
+    "body-parser": "1.19.0",
+    "express": "4.17.1",
+    "graphql": "^15.5.3"
+  },
+  "devDependencies": {
+    "nodemon": "1.18.4"
+  }
+}
