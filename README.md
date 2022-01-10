@@ -14,7 +14,11 @@ mutation Test {
 }
 ```
 
-5. Go to the terminal output of the apollo gql server and check the `req.body`. There are 4 requests instead of one.
+5. Go to the terminal output of the apollo gql server and check the `req.body`. There are 4 requests instead of 1.
+
+# Expected behavior
+
+The apollo gql server, which is a handler of the GQL Mesh, receives 1 request with all mutations inside of it.
 
 # Reason why it does not work
 
